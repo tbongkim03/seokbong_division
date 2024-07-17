@@ -1,5 +1,5 @@
 def divide():
-    first_num = int(input("first_num: "))
-    second_num = int(input("second_num: "))
+    a = int(sys.argv[1])
+    b = int(sys.argv[2])
 
     print(first_num/second_num)
